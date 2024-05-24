@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <title>Document</title>
+</head>
+<body>
+    <div class="absolute right-10 top-10 min-h-[300px] w-3/12 rounded-xl border-2 border-black/20 shadow-md shadow-slate-100">
+        <div class="relative flex flex-col gap-6 px-10 py-9">
+          <div class="text-lg font-bold text-black">$49<span class="font-normal"> night</span></div>
+          
+          <div class="flex flex-col divide-y-2 divide-black/20 rounded-lg border-2 border-black/25">
+            <div class="flex divide-x-2 rounded-lg">
+              <div class="w-1/2 px-2 py-2 text-lg font-bold">
+                <p>CHECK-IN</p>
+                <input type="text" name="checkin-input" id="checkin" class="w-full" placeholder="Add Date" />
+              </div>
+              <div class="w-1/2 px-2 py-2 text-lg font-bold">
+                <p>CHECKOUT</p>
+                <input type="text" name="checkout-input" id="checkin" class="w-full" placeholder="Add Date" />
+              </div>
+            </div>
+      
+            <div class="w-full px-2">
+              <select name="select-input" id="guests" class="w-full px-2 py-4 selection:default:border-none hover:default:border-none focus-visible:outline-none active:default:border-none">
+                <option value="guest">  <div>-</div>adults<div>+</div></option>
+                <option value="guest">children</option>
+                <option value="guest">infants</option>
+                <option value="guest">pets</option>
+              </select>
+            </div>
+          </div>
+          <div class="inline-flex min-w-fit justify-center">
+            <button class="w-full rounded-lg bg-pink-600 px-6 py-3">Check Availabilty</button>
+          </div>
+          </div>
+           <div class="absolute top-[70px] right-6 w-[40rem] h-[30rem] border-2 border-stone-950/20 rounded-xl bg-white hover:hidden">
+      
+            </div>
+          
+        </div>
+           
+      </div>
+    
+</body>
+</html>
